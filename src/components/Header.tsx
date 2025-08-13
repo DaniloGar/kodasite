@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import logoUrl from "koda-logo.png";
+import logoUrl from 'lovable-uploads/602626ed-04d1-48ee-9c5c-ca84d7a0c038.png';
+
 
 interface HeaderProps {
   currentPage: string;
@@ -23,28 +24,15 @@ export const Header = ({ currentPage, onNavigate }: HeaderProps) => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-<<<<<<< HEAD
           <div className="flex items-center cursor-pointer" onClick={() => onNavigate("home")}>
             <img
               src={logoUrl}
               alt="Koda & Branca - Assessoria e Consultoria Administrativa"
-=======
-          <img
-              src={logoUrl}
-              alt="Koda & Branca - Assessoria e Consultoria Administrativa"
->>>>>>> f3dbba94bb3705dac19e3f1c8c478420028b74b6
               className="h-12 w-auto"
-<<<<<<< HEAD
               loading="eager"
               fetchPriority="high"
               decoding="async"
               />
-=======
-              loading="eager"
-              fetchPriority="high"
-              decoding="async"
-            />
->>>>>>> f3dbba94bb3705dac19e3f1c8c478420028b74b6
           </div>
 
           {/* Desktop Navigation */}
