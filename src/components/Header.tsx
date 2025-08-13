@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import logoUrl from 'lovable-uploads/602626ed-04d1-48ee-9c5c-ca84d7a0c038.png';
-
+import logoUrl from "koda-logo.png";
 
 interface HeaderProps {
   currentPage: string;
